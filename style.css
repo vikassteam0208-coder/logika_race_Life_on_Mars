@@ -1,0 +1,412 @@
+body {
+  margin: 0;
+}
+
+.one1 {
+  background-color: #160335; 
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 40px;
+  color:white;
+}  
+
+.wow {
+ color: white;
+  text-decoration: none;
+}
+
+.btn-new {
+  background: #160335;
+  color: white;
+  border-radius: 10px;
+  font-size: 18px;
+  margin: 9px;
+  transition: 0.2s linear;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.btn-new:hover {
+  background: #160335; 
+}
+
+.two2 {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url("https://images.wallpaperscraft.ru/image/single/kosmonavt_skafandr_babochki_121755_1920x1200.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display:flex;
+   justify-content: center;
+  text-align:center;
+}
+
+
+.one2 {
+display:flex;
+   justify-content: center;
+  background-color:#160335;
+ 
+}
+.three1 {
+  margin:40px;
+  padding:20px;
+   
+ 
+  font-size:30px;
+  background-color:#160335;
+  border-radius:13px;
+}
+
+main {
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url("https://starwalk.space/gallery/images/what-is-space/1140x641.jpg");
+  color:white;
+background-size:contain;
+ background-repeat: repeat;
+    
+}
+
+.four1 {
+  display:flex;
+   justify-content: center;
+  background-color:#211243;
+  
+}
+
+.five2 { 
+
+margin:50px;
+  padding:25px;
+   
+ 
+  font-size:30px;
+  
+  display:flex;
+   justify-content: start;
+  background-color:#160335;
+  
+  border-radius:13px;
+}
+
+.five {
+    display: flex;
+    justify-content: end;
+}
+
+.five img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    margin: 5px;
+    border-radius: 20%;
+    box-shadow: 0 4px 10px rgba(1,1,1,0.5) ;
+}
+
+.cool {
+  height: 300px;
+  display:flex;
+justify-content:end;
+  align-items:space-around;
+}
+
+.colclo {
+    width: 400px;
+  height: 400px;
+  color:white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  color: white;
+  text-align: center;
+  font-size:49px;
+
+  
+  text-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
+
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  
+}
+ 
+
+.thelastone{
+  display:flex;
+  justify-content:center;
+
+}
+
+.photophoto {
+  width:100px;
+}
+
+
+@media (max-width:600px){
+  .five2 {
+    font-size:25px;  
+    
+}
+  
+  
+  .photo12{
+    display: flex;
+  flex-direction: column;
+  gap: 10px;
+  }
+  
+  .five {
+     display:flex;
+     justify-content: end;
+     align-items:center;
+}
+
+.btn-new {
+     font-size: 15px;
+     margin: 10px;
+}
+.two2 {
+     height:50vh;
+}
+
+  .cool {
+     height: 320px;
+     width:320px;
+  }
+
+  
+  
+}
+
+.thelastone_items {
+  background: #211243 ;
+  margin: 0 40px;
+  border-radius:10px;
+}
+
+.thelastone_items img {
+  width: 400px;
+}
+
+.photo12 {
+  display:flex;
+  justify-content:start;
+  
+  border-radius:10px;
+  
+}
+
+
+
+.shruft {
+  font-size:28px;
+  display:flex;
+  justify-content:center;
+  margin:20px;
+    
+}
+
+.bottom3 {
+  
+ 
+  color: white;
+  border-radius: 10px;
+  font-size: 20px;
+  margin: 15px;
+  transition: 0.2s linear;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+
+}
+
+.botton60 {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  
+}
+
+
+
+
+
+.game_item {
+  display: flex;
+  align-items:space-between;
+  
+}
+
+.img {
+  width: 60px;
+  height: 60px;
+  background-image: url("https://thumbs.dreamstime.com/b/futuristic-digital-representation-human-lungs-image-showcases-detailed-view-lungs-blue-glowing-style-perfect-340990824.jpg");
+  background-size: cover;
+  background-position: center;
+  margin:20px;
+}
+
+
+.img2 {
+  width: 60px;
+  height: 60px;
+  background-image: url("https://www.backdoorsurvival.com/wp-content/uploads/2022/02/survival-foods-with-long-shelf-life.jpg");
+  background-size: cover;
+  background-position: center;
+  margin:20px;
+  display: flex;
+  align-items:end;
+  
+}
+
+
+.img3 {
+  width: 60px;
+  height: 60px;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbbaGB6a7ShwZCzenQsGfqfs_z8Eth5ZY6Xw&s");
+  background-size: cover;
+  background-position: center;
+  margin:20px;
+  display: flex;
+  align-items:end;
+}
+
+
+.img4 {
+  width: 60px;
+  height: 60px;
+  background-image: url("https://media.wired.com/photos/66f6d9e8edd5b22be7017791/3:2/w_2560%2Cc_limit/GettyImages-1681913304.jpg");
+  background-size: cover;
+  background-position: center;
+  margin:20px;
+}
+
+
+.img5 {
+  width: 60px;
+  height: 60px;
+  background-image: url("https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/7Ldo3QloOMe8O6IjCwYtV/f0a15739b8ca054297d029f382a742be/Avatar_SP.jpg");
+  background-size: cover;
+  background-position: center;
+  margin:20px;
+}
+
+
+.img5 {
+  width: 60px;
+  height: 60px;
+  background-image: url("https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/7Ldo3QloOMe8O6IjCwYtV/f0a15739b8ca054297d029f382a742be/Avatar_SP.jpg");
+  background-size: cover;
+  background-position: center;
+  margin:20px;
+}
+
+.img6 {
+  width: 60px;
+  height: 60px;
+  background-image: url("https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/4bPIgGoBDlXjvWwP9YdsAH/ec7a7b39e1ef3470df57d56c412ea3c4/Item_Cosmetic_Pack.png");
+  background-size: cover;
+  background-position: center;
+  margin:20px;
+}
+
+.img7 {
+  width: 60px;
+  height: 60px;
+  background-image: url("https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/55nzd0DcQ6Qw8uCmGemuua/0bccc9c575fbcca93f51c4000218186a/Avatar_Ultimate_Pack.jpg");
+  background-size: cover;
+  background-position: center;
+  margin:20px;
+}
+
+.img8 {
+  width: 60px;
+  height: 60px;
+  background-image: url("https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/17elrPNsflRJWlQRam9R2W/1c15c74d5eae7a082e89f0c48fd9f546/Avatar_Digital_Artbook.jpg");
+  background-size: cover;
+  background-position: center;
+  margin:20px;
+}
+
+
+
+.img32 {
+  width: 60px;
+  height: 60px;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLVPap6yAcIZntPHP4aOMDh6v-T096FPOPBA&s");
+  background-size: cover;
+  background-position: center;
+  margin:20px;
+}
+
+
+.img33 {
+  width: 60px;
+  height: 60px;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsS266GHCDxoP5Lmf09E02rEnzgF-y46lYIQ&s");
+  background-size: cover;
+  background-position: center;
+  margin:20px;
+}
+
+.img34{
+  width: 60px;
+  height: 60px;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9oT9OeAmHBKMXj-hj0W38LKJkZvOTN-XXpg&s");
+  background-size: cover;
+  background-position: center;
+  margin:20px;
+}
+
+.img333{
+  width: 60px;
+  height: 60px;
+  background-image: url("https://www.nasa.gov/wp-content/uploads/2023/03/51276078237-65eb0e0c11-o.jpg");
+  background-size: cover;
+  background-position: center;
+  margin:20px;
+}
+
+
+
+.img222{
+  width: 60px;
+  height: 60px;
+  background-image: url("https://t3.ftcdn.net/jpg/17/85/89/36/360_F_1785893616_ncudkiHyyxxCNEr4boEh1XxmrdsQf5R0.jpg");
+  background-size: cover;
+  background-position: center;
+  margin:20px;
+}
+
+
+.img444{
+  width: 60px;
+  height: 60px;
+  background-image: url("https://www.azom.com/images/Article_Images/ImageForArticle_22251_16698988323618020.jpg");
+  background-size: cover;
+  background-position: center;
+  margin:20px;
+}
+
+
+.img555{
+  width: 60px;
+  height: 60px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/STS-3_infrared_on_reentry.jpg/330px-STS-3_infrared_on_reentry.jpg");
+  background-size: cover;
+  background-position: center;
+  margin:20px;
+}
+
+
+.img777{
+  width: 60px;
+  height: 60px;
+  background-image: url("https://crownestatesintl.com/wp-content/uploads/2026/01/Image_fx-86.jpg");
+  background-size: cover;
+  background-position: center;
+  margin:20px;
+}
+
+
